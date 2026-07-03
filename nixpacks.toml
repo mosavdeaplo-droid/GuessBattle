@@ -1,0 +1,6 @@
+[phases.install]
+cmds = [
+  "corepack enable",
+  "corepack prepare pnpm@10.26.1 --activate",
+  "pnpm install --frozen-lockfile"
+]
